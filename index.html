@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>Zaydah</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <div class="sidebar-inner">
+      <div class="logo"><img src="https://i.imgur.com/bdT96yT.png" alt="logo" /></div>
+      <h3>MENU</h3>
+      <ul>
+        <li onclick="navigate('main')">📁 More</li>
+        <li onclick="navigate('about')">👤 About me</li>
+        <li onclick="navigate('main')">🏠 Main</li>
+        <li onclick="navigate('gallery')">🖼️ Photos</li>
+        <li onclick="navigate('friends')">👥 Friends</li>
+      </ul>
+      <div class="user">
+        <p class="room">Zaydah</p>
+        <p class="user-tag">🔹 Zaydah</p>
+      </div>
+      <div class="footer">
+        <p>Zaydah</p>
+        <p>⚓ Zaydah</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main">
+    <header class="header">
+      <div class="banner-container">
+        <img src="https://i.imgur.com/ycC5cCB.jpeg" alt="banner" class="banner" />
+      </div>
+      <div class="profile-info">
+        <img src="https://i.imgur.com/2qfYVx1.png" class="avatar" alt="Pain Avatar" />
+        <h1>Zaydah</h1>
+      </div>
+      <nav class="topnav">
+        <a onclick="navigate('main')">More</a>
+        <a onclick="navigate('about')">About me</a>
+        <a onclick="navigate('main')">Main</a>
+        <a onclick="navigate('gallery')">Photos</a>
+        <a onclick="navigate('friends')">Friends</a>
+      </nav>
+    </header>
+
+    <section id="main" class="content-section active">
+      <div class="card">
+        <h3>📌 Information</h3>
+        <p>🏠 <a href="https://xat.com/Zaydah" target="_blank">https://xat.com/Zaydah</a></p>
+        <p>📍 I live in...</p>
+        <p>📛 My name is:...</p>
+      </div>
+      <div class="card">
+        <h3>Something here:</h3>
+        <p>Something here.</p>
+      </div>
+      <div class="card">
+        <h3>Something here.</h3>
+      </div>
+      <div class="card">
+        <h3>Visits counter</h3>
+        <p>👁️ 187 Visits</p>
+      </div>
+    </section>
+
+    <section id="about" class="content-section hidden">
+      <div class="card">
+        <h3>About me</h3>
+        <p>about me goes here.</p>
+      </div>
+    </section>
+
+    <section id="gallery" class="content-section hidden">
+      <div class="card">
+        <h3>Photo Gallery</h3>
+        <div class="gallery">
+          <img src="https://xatimg.com/image/IfBJPQ7JtBrU.png" alt="Foto" width="500" height="500" />
+          <img src="https://xatimg.com/image/IfBJPQ7JtBrU.png" alt="Foto" width="500" height="500" />
+          <img src="https://xatimg.com/image/IfBJPQ7JtBrU.png" alt="Foto" width="500" height="500" />
+          <img src="https://xatimg.com/image/IfBJPQ7JtBrU.png" alt="Foto" width="500" height="500" />
+          <img src="https://xatimg.com/image/IfBJPQ7JtBrU.png" alt="Foto" width="500" height="500" />
+        </div>
+      </div>
+    </section>
+
+    <section id="friends" class="content-section hidden">
+      <div class="card">
+        <h3>Friends List</h3>
+        <ul class="friend-list">
+          <li><a href="http://xat.me/zaydah" target="_blank">Zaydah</a></li>
+          <li><a href="http://xat.me/naruto" target="_blank">Naruto</a></li>
+          <li><a href="http://xat.me/sakura" target="_blank">Sakura</a></li>
+          <li><a href="http://xat.me/itachi" target="_blank">Itachi</a></li>
+          <li><a href="http://xat.me/kakashi" target="_blank">Kakashi</a></li>
+          <li><a href="http://xat.me/hinata" target="_blank">Hinata</a></li>
+          <li><a href="http://xat.me/gaara" target="_blank">Gaara</a></li>
+          <li><a href="http://xat.me/ino" target="_blank">Ino</a></li>
+          <li><a href="http://xat.me/shikamaru" target="_blank">Shikamaru</a></li>
+          <li><a href="http://xat.me/rocklee" target="_blank">Rock Lee</a></li>
+        </ul>
+      </div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
